@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>URL Shortener</title>
+   </head>
+
+   <body>
+      <div class="container">
+        <form action="/api/shorturl/new" method="POST">
+          <label for="originalUrl">URL to be shortened</label>
+          <input id="urlInput" type="text" name="originalUrl" value="https://www.google.com">
+          <input type="submit" value="POST URL">
+        </form>
+      </div>
+   </body>
+
+
+</html>
